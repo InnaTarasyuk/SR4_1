@@ -21,11 +21,12 @@ namespace StudentLibrary.Test
         public void TestSerialize()
         {
             Student student = new Student("Michael", 8, Faculty.CS);
-            using (FileStream fs = new FileStream("test", FileMode.Create))
+            using (MemoryStream ms = new MemoryStream())
             {
                 DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(Student));
-                serializer.WriteObject(fs, student);
-                Assert.Equal(student, (Student)serializer.ReadObject(fs));
+                serializer.WriteObject(ms, student);
+                ms.Seek(0, SeekOrigin.Begin);
+                Assert.Equal(student, serializer.ReadObject(ms));
             }
         }
         [Fact]
