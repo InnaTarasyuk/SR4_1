@@ -28,12 +28,11 @@ namespace StudentLibrary
             if (mark >= 4 && mark < 10)
                 Mark = mark;
             else throw new ArgumentOutOfRangeException("Значение оценки неверное");
-            // проверить значение
             Faculty = faculty;
         }
-        //}
+
         /// <summary>
-        /// Проверяет корректность имение
+        /// Проверяет корректность имени
         /// </summary>
         /// <param name="name">Имя для проверки</param>
         /// <returns>Правда, если корректно, иначе ложь</returns>
@@ -55,6 +54,12 @@ namespace StudentLibrary
         /// </summary>
         /// <returns>Строка с информацией об объекте</returns>
         public override string ToString() => $"<{Faculty}> Student <{Name}>: Mark <{Mark:f3}>";
+        /// <summary>
+        ///  Метод, реализующий перегрузку оператора сложения двух объектов типа Student
+        /// </summary>
+        /// <param name="firstStudent">Объект типа Student</param>
+        /// <param name="secondStudent">Объект типа Student</param>
+        /// <returns>Объект типа Student, полученный в результате сложения двух переданных объектов</returns>
         public static Student operator +(Student firstStudent, Student secondStudent)
         {
             int max = Math.Max(firstStudent.Name.Length, secondStudent.Name.Length);
@@ -69,6 +74,15 @@ namespace StudentLibrary
             if (firstStudent.Faculty != secondStudent.Faculty) throw new ArgumentException("Факультеты не совпадают");
             double mark = (firstStudent.Mark + secondStudent.Mark) / 2.0;
             return new Student(name, mark, firstStudent.Faculty);
+        }
+        public override bool Equals(object obj)
+        {
+            if (obj is Student)
+            {
+                Student st = obj as Student;
+                return (st. Mark == Mark) && (st.Name == Name) && (st.Faculty == Faculty);
+            }
+            return base.Equals(obj);
         }
     }
 }
