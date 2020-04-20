@@ -75,5 +75,14 @@ namespace StudentLibrary
             double mark = (firstStudent.Mark + secondStudent.Mark) / 2.0;
             return new Student(name, mark, firstStudent.Faculty);
         }
+        public override bool Equals(object obj)
+        {
+            if (obj is Student)
+            {
+                Student st = obj as Student;
+                return (st. Mark == Mark) && (st.Name == Name) && (st.Faculty == Faculty);
+            }
+            return base.Equals(obj);
+        }
     }
 }
