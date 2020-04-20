@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace StudentLibrary
 {
+    // объявляем перечисление
     public enum Faculty
     {
         CS,
