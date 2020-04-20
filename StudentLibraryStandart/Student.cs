@@ -50,6 +50,10 @@ namespace StudentLibrary
             }
             else return false;
         }
+        /// <summary>
+        /// Метод, который возвращает информацию об объекте в нужном формате
+        /// </summary>
+        /// <returns>Строка с информацией об объекте</returns>
         public override string ToString() => $"<{Faculty}> Student <{Name}>: Mark <{Mark:f3}>";
         public static Student operator +(Student firstStudent, Student secondStudent)
         {
