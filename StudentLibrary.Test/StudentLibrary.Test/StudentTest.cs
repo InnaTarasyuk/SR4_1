@@ -5,14 +5,14 @@ using System.Runtime.Serialization.Json;
 using System.IO;
 namespace StudentLibrary.Test
 {
-    public class UnitTest1
+    public class StudentTest
     {
         [Fact]
         // Метод проверки корректности работы метода ToString()
         public void TestToString()
         {
             Student student = new Student("Michael", 8, Faculty.CS);
-            string expectedString = $"<CS> Student <Michael>: Mark <{8:f3}";
+            string expectedString = $"<CS> Student <Michael>: Mark <{8:f3}>";
             Assert.Equal(student.ToString(), expectedString);
 
         }
