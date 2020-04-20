@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentLibrary", "StudentLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentGenerator", "StudentGenerator\StudentGenerator.csproj", "{F1E636FF-30B1-401C-AA68-3B226E9CE99B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentLibrary.Test", "StudentLibrary.Test\StudentLibrary.Test\StudentLibrary.Test.csproj", "{B2686430-7984-4808-9AAA-92DD3E730F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentLibraryStandart", "StudentLibraryStandart\StudentLibraryStandart.csproj", "{62941499-CCC7-4B25-B33C-D40A5CECF852}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{F1E636FF-30B1-401C-AA68-3B226E9CE99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1E636FF-30B1-401C-AA68-3B226E9CE99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1E636FF-30B1-401C-AA68-3B226E9CE99B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2686430-7984-4808-9AAA-92DD3E730F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2686430-7984-4808-9AAA-92DD3E730F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2686430-7984-4808-9AAA-92DD3E730F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2686430-7984-4808-9AAA-92DD3E730F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62941499-CCC7-4B25-B33C-D40A5CECF852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62941499-CCC7-4B25-B33C-D40A5CECF852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62941499-CCC7-4B25-B33C-D40A5CECF852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62941499-CCC7-4B25-B33C-D40A5CECF852}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

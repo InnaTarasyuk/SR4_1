@@ -1,8 +1,6 @@
 C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\StudentGenerator.exe.config
 C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\StudentGenerator.exe
 C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\StudentGenerator.pdb
-C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\StudentLibrary.dll
-C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\StudentLibrary.pdb
 C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\obj\Debug\StudentGenerator.csprojAssemblyReference.cache
 C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\obj\Debug\StudentGenerator.csproj.CopyComplete
 C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\obj\Debug\StudentGenerator.exe
@@ -16,7 +14,6 @@ C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\System.Tex
 C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\System.Text.Json.dll
 C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\System.ValueTuple.dll
-C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\StudentLibrary.dll.config
 C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\System.Buffers.xml
 C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\System.Memory.xml
@@ -26,3 +23,5 @@ C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\System.Tex
 C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\System.Text.Json.xml
 C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\System.ValueTuple.xml
+C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\StudentLibraryStandart.dll
+C:\Users\kysar\source\repos\StudentLibrary\StudentGenerator\bin\Debug\StudentLibraryStandart.pdb
